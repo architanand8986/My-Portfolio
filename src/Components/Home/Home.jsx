@@ -224,12 +224,12 @@ function Home() {
                   </div>
                   <div className="text-gray-600 text-sm">Projects</div>
                 </div>
-                <div className="text-center md:text-left">
+                {/* <div className="text-center md:text-left">
                   <div className="text-2xl md:text-3xl font-bold text-purple-600">
                     2+
                   </div>
                   <div className="text-gray-600 text-sm">Years Experience</div>
-                </div>
+                </div> */}
                 <div className="text-center md:text-left col-span-2 md:col-span-1">
                   <div className="text-2xl md:text-3xl font-bold text-green-600">
                     5+
