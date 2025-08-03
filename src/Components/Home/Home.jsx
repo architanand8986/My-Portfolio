@@ -638,6 +638,191 @@ function Home() {
         </div>
       </section>
 
+      {/* Certifications Section */}
+      <section
+        id="certifications"
+        className="w-full mb-24 bg-gradient-to-br from-white to-blue-50 rounded-2xl p-0 md:p-16 lg:p-24"
+      >
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center justify-center w-14 h-14 bg-green-100 rounded-full mb-6">
+              <svg
+                className="w-7 h-7 text-green-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 6v6l4 2"
+                />
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  fill="none"
+                />
+              </svg>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4 tracking-tight">
+              Certifications
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              Some of my recent certifications in AI, ML, and Cloud
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Google Certifications */}
+            <a
+              href="https://coursera.org/share/bb7d0ad3b9502aaa10980802b0f51e33"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center gap-4 p-6 bg-white rounded-xl shadow hover:shadow-lg border border-gray-100 transition-all"
+            >
+              {/* Google Icon */}
+              <svg className="w-8 h-8" viewBox="0 0 48 48">
+                <g>
+                  <path
+                    fill="#4285F4"
+                    d="M24 9.5c3.54 0 6.7 1.22 9.2 3.23l6.9-6.9C35.7 2.13 30.2 0 24 0 14.82 0 6.73 5.8 2.69 14.1l8.06 6.26C12.3 13.7 17.7 9.5 24 9.5z"
+                  />
+                  <path
+                    fill="#34A853"
+                    d="M46.1 24.6c0-1.64-.15-3.22-.43-4.74H24v9.04h12.4c-.54 2.9-2.18 5.36-4.64 7.04l7.18 5.6C43.98 37.1 46.1 31.4 46.1 24.6z"
+                  />
+                  <path
+                    fill="#FBBC05"
+                    d="M10.75 28.14A14.5 14.5 0 019.5 24c0-1.44.25-2.84.7-4.14l-8.06-6.26A23.97 23.97 0 000 24c0 3.8.9 7.4 2.5 10.6l8.25-6.46z"
+                  />
+                  <path
+                    fill="#EA4335"
+                    d="M24 48c6.2 0 11.4-2.05 15.2-5.6l-7.18-5.6c-2 1.4-4.6 2.2-8.02 2.2-6.3 0-11.6-4.2-13.5-10.06l-8.25 6.46C6.73 42.2 14.82 48 24 48z"
+                  />
+                </g>
+              </svg>
+              <span className="text-lg font-semibold text-gray-800 group-hover:text-blue-700">
+                Google Cloud: Introduction to Large Language Models
+              </span>
+            </a>
+            <a
+              href="https://coursera.org/share/f2b5afd4099c14904cfd52f882b83b31"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center gap-4 p-6 bg-white rounded-xl shadow hover:shadow-lg border border-gray-100 transition-all"
+            >
+              {/* Google Icon */}
+              <svg className="w-8 h-8" viewBox="0 0 48 48">
+                <g>
+                  <path
+                    fill="#4285F4"
+                    d="M24 9.5c3.54 0 6.7 1.22 9.2 3.23l6.9-6.9C35.7 2.13 30.2 0 24 0 14.82 0 6.73 5.8 2.69 14.1l8.06 6.26C12.3 13.7 17.7 9.5 24 9.5z"
+                  />
+                  <path
+                    fill="#34A853"
+                    d="M46.1 24.6c0-1.64-.15-3.22-.43-4.74H24v9.04h12.4c-.54 2.9-2.18 5.36-4.64 7.04l7.18 5.6C43.98 37.1 46.1 31.4 46.1 24.6z"
+                  />
+                  <path
+                    fill="#FBBC05"
+                    d="M10.75 28.14A14.5 14.5 0 019.5 24c0-1.44.25-2.84.7-4.14l-8.06-6.26A23.97 23.97 0 000 24c0 3.8.9 7.4 2.5 10.6l8.25-6.46z"
+                  />
+                  <path
+                    fill="#EA4335"
+                    d="M24 48c6.2 0 11.4-2.05 15.2-5.6l-7.18-5.6c-2 1.4-4.6 2.2-8.02 2.2-6.3 0-11.6-4.2-13.5-10.06l-8.25 6.46C6.73 42.2 14.82 48 24 48z"
+                  />
+                </g>
+              </svg>
+              <span className="text-lg font-semibold text-gray-800 group-hover:text-blue-700">
+                Google Cloud: Introduction to Generative AI
+              </span>
+            </a>
+            <a
+              href="https://coursera.org/share/99e7dc800ae611b186a12c719994aff2"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center gap-4 p-6 bg-white rounded-xl shadow hover:shadow-lg border border-gray-100 transition-all"
+            >
+              {/* Google Icon */}
+              <svg className="w-8 h-8" viewBox="0 0 48 48">
+                <g>
+                  <path
+                    fill="#4285F4"
+                    d="M24 9.5c3.54 0 6.7 1.22 9.2 3.23l6.9-6.9C35.7 2.13 30.2 0 24 0 14.82 0 6.73 5.8 2.69 14.1l8.06 6.26C12.3 13.7 17.7 9.5 24 9.5z"
+                  />
+                  <path
+                    fill="#34A853"
+                    d="M46.1 24.6c0-1.64-.15-3.22-.43-4.74H24v9.04h12.4c-.54 2.9-2.18 5.36-4.64 7.04l7.18 5.6C43.98 37.1 46.1 31.4 46.1 24.6z"
+                  />
+                  <path
+                    fill="#FBBC05"
+                    d="M10.75 28.14A14.5 14.5 0 019.5 24c0-1.44.25-2.84.7-4.14l-8.06-6.26A23.97 23.97 0 000 24c0 3.8.9 7.4 2.5 10.6l8.25-6.46z"
+                  />
+                  <path
+                    fill="#EA4335"
+                    d="M24 48c6.2 0 11.4-2.05 15.2-5.6l-7.18-5.6c-2 1.4-4.6 2.2-8.02 2.2-6.3 0-11.6-4.2-13.5-10.06l-8.25 6.46C6.73 42.2 14.82 48 24 48z"
+                  />
+                </g>
+              </svg>
+              <span className="text-lg font-semibold text-gray-800 group-hover:text-blue-700">
+                Google AI Essentials
+              </span>
+            </a>
+            {/* DeepLearning.AI Certifications */}
+            <a
+              href="https://coursera.org/share/02328d7cb0b1892931892071fd2cb94c"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center gap-4 p-6 bg-white rounded-xl shadow hover:shadow-lg border border-gray-100 transition-all"
+            >
+              {/* DeepLearning.AI Icon */}
+              <svg className="w-8 h-8" viewBox="0 0 32 32">
+                <circle cx="16" cy="16" r="16" fill="#072A60" />
+                <text
+                  x="16"
+                  y="22"
+                  textAnchor="middle"
+                  fontSize="15"
+                  fill="#fff"
+                  fontFamily="Arial, Helvetica, sans-serif"
+                >
+                  DL
+                </text>
+              </svg>
+              <span className="text-lg font-semibold text-gray-800 group-hover:text-blue-700">
+                Supervised Machine Learning: Regression and Classification
+              </span>
+            </a>
+            <a
+              href="https://coursera.org/share/9ff0fa2f66dceb84e16271381068e5c4"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center gap-4 p-6 bg-white rounded-xl shadow hover:shadow-lg border border-gray-100 transition-all"
+            >
+              {/* DeepLearning.AI Icon */}
+              <svg className="w-8 h-8" viewBox="0 0 32 32">
+                <circle cx="16" cy="16" r="16" fill="#072A60" />
+                <text
+                  x="16"
+                  y="22"
+                  textAnchor="middle"
+                  fontSize="15"
+                  fill="#fff"
+                  fontFamily="Arial, Helvetica, sans-serif"
+                >
+                  DL
+                </text>
+              </svg>
+              <span className="text-lg font-semibold text-gray-800 group-hover:text-blue-700">
+                Advanced Learning Algorithms
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Enhanced Contact Me Section */}
       <section
         id="contact"
